@@ -4507,10 +4507,11 @@ span.langdrop{
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #171717;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  padding: 10px 15px;
 }
 .card > hr {
   margin-right: 0;
@@ -4542,6 +4543,7 @@ span.langdrop{
 
 .card-title {
   margin-bottom: 0.5rem;
+  color: #006E6D;
 }
 
 .card-subtitle {
@@ -11285,6 +11287,11 @@ body {
 
 .page-section {
   padding: 4rem 0;
+  background-color: #000 !important;
+}
+
+#services{  
+  background-color: #0b0b0b !important;
 }
 
 .text-white-75 {
