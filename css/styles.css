@@ -858,6 +858,14 @@ progress {
 .g-3,
 .gy-3 {
   --bs-gutter-y: 1rem;
+  width: 60%;
+  margin: 0px auto !important;
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.gy-3 input{
+  background: rgba(80, 80, 80, 0.4) !important;
 }
 
 .g-4,
@@ -4512,6 +4520,7 @@ span.langdrop{
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
   padding: 10px 15px;
+  margin-top: 15px;
 }
 .card > hr {
   margin-right: 0;
@@ -4898,6 +4907,26 @@ span.langdrop{
 .btn .badge {
   position: relative;
   top: -1px;
+}
+
+.countries{
+  margin-top: 30%;
+}
+
+.countries h1{
+  font-family: "Poppins" !important;
+}
+
+p span.lord{
+  font-family: "Poppins" !important;
+  font-size: 35px;
+  font-weight: 6oo;
+}
+
+section.page-newsletter{
+  background: url("../assets/img/newsletterbg.png") no-repeat;
+  background-size: cover;
+  height:350px;
 }
 
 .alert {
@@ -7449,6 +7478,10 @@ span.langdrop{
   padding-left: 1.5rem !important;
 }
 
+.px-newsletter{
+  padding-top:5%;
+}
+
 .px-5 {
   padding-right: 3rem !important;
   padding-left: 3rem !important;
@@ -7694,6 +7727,11 @@ span.langdrop{
 
 .text-nowrap {
   white-space: nowrap !important;
+}
+
+/* newsletter styling */
+.lordnewsletter{
+  border:2px solid red;
 }
 
 /* rtl:begin:remove */
