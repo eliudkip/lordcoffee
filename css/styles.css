@@ -15,7 +15,7 @@
   --bs-gray-dark: #343a40;
   --bs-gray-100: #f8f9fa;
   --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
+  --bs-gray-300: #013220 ;
   --bs-gray-400: #ced4da;
   --bs-gray-500: #adb5bd;
   --bs-gray-600: #6c757d;
@@ -595,7 +595,7 @@ progress {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #013220 ;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -886,6 +886,10 @@ progress {
 .g-5,
 .gy-5 {
   --bs-gutter-y: 3rem;
+}
+
+.product{
+  padding-top: 3%;
 }
 
 @media (min-width: 576px) {
@@ -1966,7 +1970,7 @@ progress {
   margin-bottom: 1rem;
   color: #ffffff;
   vertical-align: top;
-  border-color: #dee2e6;
+  border-color: #013220 ;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -2607,7 +2611,7 @@ textarea.form-control-lg {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #dee2e6;
+  background-color: #013220 ;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -2636,7 +2640,7 @@ textarea.form-control-lg {
   height: 0.5rem;
   color: transparent;
   cursor: pointer;
-  background-color: #dee2e6;
+  background-color: #013220 ;
   border-color: transparent;
   border-radius: 1rem;
 }
@@ -3809,12 +3813,12 @@ span.langdrop{
 }
 
 .dropdown-menu-dark {
-  color: #dee2e6;
+  color: #013220 ;
   background-color: #343a40;
   border-color: rgba(0, 0, 0, 0.15);
 }
 .dropdown-menu-dark .dropdown-item {
-  color: #dee2e6;
+  color: #013220 ;
 }
 .dropdown-menu-dark .dropdown-item:hover, .dropdown-menu-dark .dropdown-item:focus {
   color: #fff;
@@ -3831,7 +3835,7 @@ span.langdrop{
   border-color: rgba(0, 0, 0, 0.15);
 }
 .dropdown-menu-dark .dropdown-item-text {
-  color: #dee2e6;
+  color: #013220 ;
 }
 .dropdown-menu-dark .dropdown-header {
   color: #adb5bd;
@@ -3963,7 +3967,7 @@ span.langdrop{
 }
 
 .nav-tabs {
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #013220 ;
 }
 .nav-tabs .nav-link {
   margin-bottom: -1px;
@@ -3985,7 +3989,7 @@ span.langdrop{
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  border-color: #013220  #013220  #fff;
 }
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
@@ -4811,7 +4815,7 @@ span.langdrop{
   color: #006E6D;
   text-decoration: none;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: 1px solid #013220 ;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4823,7 +4827,7 @@ span.langdrop{
   z-index: 2;
   color: #006E6D;
   background-color: #e9ecef;
-  border-color: #dee2e6;
+  border-color: #013220 ;
 }
 .page-link:focus {
   z-index: 3;
@@ -4846,7 +4850,7 @@ span.langdrop{
   color: #6c757d;
   pointer-events: none;
   background-color: #fff;
-  border-color: #dee2e6;
+  border-color: #013220 ;
 }
 
 .page-link {
@@ -5586,7 +5590,7 @@ section.page-newsletter{
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #013220 ;
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
@@ -5613,7 +5617,7 @@ section.page-newsletter{
   align-items: center;
   justify-content: flex-end;
   padding: 0.75rem;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #013220 ;
   border-bottom-right-radius: calc(0.3rem - 1px);
   border-bottom-left-radius: calc(0.3rem - 1px);
 }
@@ -6864,7 +6868,7 @@ section.page-newsletter{
 }
 
 .border {
-  border: 1px solid #dee2e6 !important;
+  border: 1px solid #013220  !important;
 }
 
 .border-0 {
@@ -6872,7 +6876,7 @@ section.page-newsletter{
 }
 
 .border-top {
-  border-top: 1px solid #dee2e6 !important;
+  border-top: 1px solid #013220  !important;
 }
 
 .border-top-0 {
@@ -6880,7 +6884,7 @@ section.page-newsletter{
 }
 
 .border-end {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 1px solid #101214 !important;
 }
 
 .border-end-0 {
@@ -6888,7 +6892,7 @@ section.page-newsletter{
 }
 
 .border-bottom {
-  border-bottom: 1px solid #dee2e6 !important;
+  border-bottom: 1px solid #013220  !important;
 }
 
 .border-bottom-0 {
@@ -6896,7 +6900,7 @@ section.page-newsletter{
 }
 
 .border-start {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 1px solid #013220  !important;
 }
 
 .border-start-0 {
