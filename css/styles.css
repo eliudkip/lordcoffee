@@ -31,7 +31,7 @@
   --bs-light: #f8f9fa;
   --bs-dark: #ffffff;
   --bs-primary-rgb: 0, 0, 0;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-secondary-rgb: 10, 10, 30;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -146,6 +146,12 @@ p {
   margin-bottom: 1rem;
 }
 
+p.footertext{
+  font-size: 14px;
+  padding-top: 3%;
+  line-height: 1.5em;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -225,7 +231,7 @@ sup {
 
 a {
   color: #006E6D;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #006E6D;
@@ -398,6 +404,53 @@ legend {
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
 }
+
+ /* Style all font awesome icons */
+ .fa{
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* .fab {
+  border:2px solid red;
+  margin-top:20px !important;
+} */
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #006E6D;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #006E6D;
+  color: white;
+} 
+
+/* instagram */
+.fa-instagram{  
+  background: #006E6D;
+  color: white;
+}
+
+/* tiktok */
+.fa-tiktok {
+  background: #006E6D;
+  color: white;
+  align-content: bottom;
+}
+
 @media (min-width: 1200px) {
   legend {
     font-size: 1.5rem;
@@ -595,7 +648,7 @@ progress {
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
-  border: 1px solid #013220 ;
+  border: 1px solid #252726 ;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -2318,7 +2371,9 @@ progress {
   color: #ffffff;
   background-color: transparent;
   border: solid transparent;
+  border-bottom:1px solid #0b0b0b;
   border-width: 1px 0;
+  padding-bottom: 7% !important;
 }
 .form-control-plaintext.form-control-sm, .form-control-plaintext.form-control-lg {
   padding-right: 0;
@@ -6761,6 +6816,7 @@ section.page-newsletter{
 
 .d-flex {
   display: flex !important;
+  background-color: #070715 !important;
 }
 
 .d-inline-flex {
@@ -7149,6 +7205,14 @@ section.page-newsletter{
 
 .align-content-end {
   align-content: flex-end !important;
+}
+
+.text-left{
+  font-size: 14px;
+}
+
+.text-right a{
+  font-size: 14px;
 }
 
 .align-content-center {
