@@ -11512,8 +11512,27 @@ header.masthead {
   background-size: cover;
 }
 
+header.aboutmasthead {
+  padding-top: 12rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("../assets/img/aboutbanner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
 span.lord{
   color: #006E6D !important;
+}
+
+.separator {
+  border-bottom: 1px solid #eccccf; 
+  padding: 20px 0px 5px 0px; 
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 header.masthead h1, header.masthead .h1 {
