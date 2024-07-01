@@ -945,6 +945,11 @@ progress {
   padding-top: 3%;
 }
 
+.p-3 p {
+  font-size: 14px;
+  padding-top: 3%;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
@@ -11516,6 +11521,16 @@ header.aboutmasthead {
   padding-top: 12rem;
   padding-bottom: calc(10rem - 4.5rem);
   background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("../assets/img/aboutbanner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.productmasthead{
+  padding-top: 12rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 100%), url("../assets/img/productsbanner.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
