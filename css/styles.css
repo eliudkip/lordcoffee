@@ -3096,7 +3096,7 @@ textarea.form-control-lg {
   background-color: #003231;
   border-color: #003231;
 }
-/* products butto styling */
+/* products button styling */
 .btn-product{
   color: #fff;
   background-color: #003231;
@@ -3571,6 +3571,13 @@ span.langdrop{
 .fade {
   transition: opacity 0.15s linear;
 }
+
+/*** accessories section styling  ***/
+.image-container .description{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .fade {
     transition: none;
