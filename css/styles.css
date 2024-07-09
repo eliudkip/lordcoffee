@@ -11470,6 +11470,11 @@ body {
   background-color: #000 !important;
 }
 
+.page-section-button{  
+  padding: 1.5rem 0;
+  background-color: #000 !important;
+}
+
 #services{  
   background-color: #0b0b0b !important;
 }
@@ -11478,7 +11483,7 @@ body {
   color: rgba(255, 255, 255, 0.75) !important;
   font-family: "Poppins" !important;
   line-height: 1.5em;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .btn-xl {
@@ -11623,6 +11628,13 @@ header.masthead h1, header.masthead .h1 {
   font-size: 2.25rem;
   font-family: "Poppins" !important;
 }
+/*team description styling*/
+p.teamdesc{
+  font-size: 16px;
+  line-height: 1.8em;
+  padding-top: 1.5%;
+}
+
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
