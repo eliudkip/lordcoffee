@@ -11506,6 +11506,74 @@ body {
   margin-left: 20px;
 }
 
+/* video play icon */
+.play-icon {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #013220;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.text-column, .image-column {
+  display: flex;
+  font-family: "Poppins";
+  /* font-size: 17px; */
+  line-height: 1.8em;
+  width: 100%;
+}
+.text-column {
+  flex: 1;
+}
+
+.full-width-background {
+  background: url('../assets/img/howbg.png') no-repeat center center;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.inner-container {
+  background-color: black;
+  padding: 30px;
+  color: white;
+}
+.content-row {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.content-column {
+  flex: 1;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.divider {
+  height: 1px;
+  background-color: white;
+  margin: 20px 0;
+}
+
+.image-column {
+  flex: 1;
+  justify-content: center;
+}
+.image-column img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* story page styling */
+.custom-row {
+  background-color: #141414;
+}
+
 hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
