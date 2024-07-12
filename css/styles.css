@@ -432,6 +432,13 @@ legend {
   color: white;
 }
 
+/* contact us icons */
+.fa-phone{
+  background: #006E6D;
+  color: white;
+  border-radius: 50%;
+}
+
 /* Twitter */
 .fa-twitter {
   background: #006E6D;
@@ -2867,6 +2874,25 @@ textarea.form-control-lg {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+/* contact us icons */
+
+.icon-circle {
+  background-color: #28a745; /* Green background */
+  color: white;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 2em;
+  display: inline;
+}
+.content-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.icon-content {
+  flex: 1;
 }
 
 .valid-feedback {
@@ -11509,7 +11535,7 @@ body {
 /* video play icon */
 .play-icon {
   position: absolute;
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #013220;
